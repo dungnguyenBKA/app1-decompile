@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/pj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/oc" app:layout_constraintBottom_toBottomOf="@id/pd" app:layout_constraintEnd_toStartOf="@id/pd" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="@id/pd" app:srcCompat="@drawable/iv" />
+    <com.camerasideas.collagemaker.activity.widget.SeekBarWithTextView android:id="@id/pd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/on" android:layout_marginEnd="@dimen/oe" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toEndOf="@id/iu" app:layout_constraintTop_toBottomOf="@id/rx" />
+</androidx.constraintlayout.widget.ConstraintLayout>

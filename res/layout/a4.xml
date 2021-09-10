@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sj" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/o_" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/o_" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/sj" app:layout_constraintVertical_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ki" android:layout_width="fill_parent" android:layout_height="105.0dip" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/dc" android:background="?qj" android:layout_width="50.0dip" android:layout_height="fill_parent" android:scaleType="center" app:srcCompat="@drawable/g4" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/on" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <com.camerasideas.collagemaker.activity.widget.CircularProgressView android:layout_gravity="center" android:id="@id/oq" android:layout_width="40.0dip" android:layout_height="40.0dip" app:cpv_animAutostart="false" app:cpv_color="@color/hg" app:cpv_indeterminate="true" app:cpv_maxProgress="100.0" app:cpv_thickness="2.0dip" />
+                <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="16.0sp" android:textColor="@color/bh" android:gravity="start|center" android:id="@id/oc" android:background="@drawable/cv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:fontFamily="sans-serif" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/n0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <FrameLayout android:layout_gravity="center" android:id="@id/ob" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center" android:id="@id/oe" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="fitCenter" />
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/oa" android:background="?qj" android:visibility="gone" android:layout_width="70.0dip" android:layout_height="70.0dip" android:scaleType="center" app:srcCompat="@drawable/j4" />
+                    <ProgressBar android:layout_gravity="center" android:id="@id/od" android:background="@drawable/cv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:indeterminate="false" />
+                </FrameLayout>
+                <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/yi" android:textColor="@color/bh" android:gravity="center" android:id="@id/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/h4" android:layout_marginStart="20.0dip" />
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/dw" android:background="?qj" android:layout_width="50.0dip" android:layout_height="fill_parent" android:scaleType="center" app:srcCompat="@drawable/he" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/kj" android:layout_width="fill_parent" android:layout_height="133.0dip" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/ki">
+            <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="15.0sp" android:textColor="@color/bh" android:gravity="center" android:id="@id/q1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="12.5dip" android:text="@string/hn" android:layout_marginStart="20.0dip" />
+            <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center" android:id="@id/pz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/kj">
+            <ScrollView android:id="@id/o9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip">
+                    <androidx.cardview.widget.CardView android:gravity="center" android:layout_gravity="center" android:id="@id/c5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" app:cardBackgroundColor="#ffececec" />
+                    <androidx.cardview.widget.CardView android:gravity="center" android:layout_gravity="center" android:id="@id/pp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" app:cardBackgroundColor="#ffececec" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/hm" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <FrameLayout android:id="@id/hn" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/mt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.camerasideas.collagemaker.activity.widget.PreviewBottomRoundView android:layout_gravity="bottom|center" android:id="@id/ol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" app:roundcolor="#ff605d5d" app:roundcount="10" app:roundlightcolor="@color/hq" app:roundradius="3.0dip" />
+</FrameLayout>

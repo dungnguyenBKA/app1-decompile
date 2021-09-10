@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w0" android:textColor="@color/bh" android:gravity="start" android:id="@id/f2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/p9" android:layout_marginBottom="@dimen/q5" android:layout_marginStart="@dimen/o3" />
+    <com.camerasideas.collagemaker.activity.widget.OverScrollLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/jf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/o3" />
+    </com.camerasideas.collagemaker.activity.widget.OverScrollLayout>
+</LinearLayout>

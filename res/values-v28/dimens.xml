@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="uh">0.24</item>
+    <item type="dimen" name="ui">0.4</item>
+    <item type="dimen" name="uj">0.4</item>
+    <item type="dimen" name="uk">0.24</item>
+    <item type="dimen" name="um">0.12</item>
+    <item type="dimen" name="un">0.2</item>
+    <item type="dimen" name="uo">0.2</item>
+    <item type="dimen" name="up">0.12</item>
+</resources>

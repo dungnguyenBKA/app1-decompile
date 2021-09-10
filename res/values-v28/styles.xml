@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bc" parent="@style/d6" />
+    <style name="bj" parent="@style/d7" />
+    <style name="ct" parent="@style/m5">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/qe</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="ad">@style/fi</item>
+        <item name="c0">@style/q7</item>
+        <item name="c1">@style/q7</item>
+        <item name="c2">@style/q8</item>
+        <item name="c3">@style/q7</item>
+        <item name="ny">@style/fj</item>
+    </style>
+    <style name="d6" parent="@style/d3">
+        <item name="gq">?android:dialogCornerRadius</item>
+    </style>
+    <style name="d7" parent="@style/d4">
+        <item name="gq">?android:dialogCornerRadius</item>
+    </style>
+</resources>

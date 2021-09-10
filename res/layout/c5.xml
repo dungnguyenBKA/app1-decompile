@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="@dimen/nw" android:paddingBottom="@dimen/nw" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.camerasideas.collagemaker.activity.widget.CircleColorView android:id="@id/fz" android:layout_width="@dimen/op" android:layout_height="@dimen/op" android:layout_marginStart="@dimen/pu" />
+    <com.camerasideas.collagemaker.activity.widget.CircleView android:id="@id/mx" android:layout_width="@dimen/op" android:layout_height="@dimen/op" android:layout_marginStart="@dimen/pu" app:border_color="@color/b6" app:is_circle="true" app:srcCompat="@drawable/ck" />
+</FrameLayout>

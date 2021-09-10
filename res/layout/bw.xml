@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <GridView android:id="@id/i1" android:padding="0.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollingCache="false" android:horizontalSpacing="1.5dip" android:verticalSpacing="1.5dip" android:numColumns="4" style="@style/fs" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="19.0sp" android:textColor="#ff949494" android:gravity="center" android:layout_gravity="center" android:id="@id/hj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium" />
+    <FrameLayout android:id="@id/n9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center" android:background="@drawable/d0" android:layout_width="57.5dip" android:layout_height="57.5dip">
+            <com.camerasideas.collagemaker.activity.widget.CircularProgressView android:layout_gravity="center" android:id="@id/n4" android:layout_width="30.0dip" android:layout_height="30.0dip" app:cpv_animAutostart="true" app:cpv_color="#ff2d2d2d" app:cpv_indeterminate="true" app:cpv_thickness="3.0dip" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip">
+        <com.camerasideas.collagemaker.activity.gallery.ui.MediaFoldersView android:orientation="vertical" android:id="@id/kz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</RelativeLayout>

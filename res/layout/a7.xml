@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:background="@color/hq" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sj" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/oj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/oj" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/sj" app:layout_constraintVertical_weight="1.0">
+        <RelativeLayout android:gravity="start|center" android:id="@id/sk" android:layout_width="0.0dip" android:layout_height="@dimen/yh" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj">
+            <RelativeLayout android:id="@id/dc" android:layout_width="wrap_content" android:layout_height="@dimen/r4">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/ie" android:background="?qj" android:padding="@dimen/nw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:contentDescription="@string/bp" app:srcCompat="@drawable/g4" />
+                <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w5" android:textColor="@color/as" android:gravity="start|center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/a2" android:singleLine="true" android:layout_toRightOf="@id/ie" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/ie" app:text_font="k" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <View android:id="@id/sf" android:background="@drawable/d4" android:layout_width="0.0dip" android:layout_height="2.0dip" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/sk" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/pu" android:layout_width="0.0dip" android:layout_height="0.0dip" android:drawSelectorOnTop="true" android:divider="@null" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/sf" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout android:id="@id/ho" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <FrameLayout android:id="@id/hn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

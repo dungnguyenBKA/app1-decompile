@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:gravity="center" android:layout_gravity="center" android:id="@id/cf" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardCornerRadius="2.0dip" card_view:cardElevation="0.0dip" card_view:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/cg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="12.0dip" />
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="start|center" android:id="@id/ce" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="7.0dip" android:text="@string/ah" android:fontFamily="sans-serif-medium" />
+            <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="#ff20cf6e" android:ellipsize="end" android:gravity="start|center" android:id="@id/cd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/ag" android:drawablePadding="8.0dip" android:fontFamily="sans-serif" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|bottom|center" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nh" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

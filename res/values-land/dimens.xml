@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="c">48.0dip</dimen>
+    <dimen name="bb">12.0dip</dimen>
+    <dimen name="bd">14.0dip</dimen>
+    <dimen name="rg">24.0dip</dimen>
+    <dimen name="rj">24.0dip</dimen>
+    <dimen name="ss">20.0dip</dimen>
+    <dimen name="su">4.0dip</dimen>
+    <dimen name="sy">96.0dip</dimen>
+    <dimen name="t1">0.0dip</dimen>
+    <dimen name="t2">0.0dip</dimen>
+    <dimen name="t3">104.0dip</dimen>
+    <dimen name="ta">68.0dip</dimen>
+    <dimen name="tc">28.0dip</dimen>
+    <dimen name="td">64.0dip</dimen>
+    <dimen name="te">32.0dip</dimen>
+    <dimen name="tf">24.0dip</dimen>
+    <dimen name="tg">32.0dip</dimen>
+</resources>

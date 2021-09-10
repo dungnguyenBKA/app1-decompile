@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fm" android:background="#00000000" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/ci" android:layout_width="fill_parent" android:layout_height="135.0dip">
+        <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w2" android:textColor="#ffe12f2f" android:ellipsize="end" android:gravity="center" android:id="@id/dm" android:background="?qi" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/bm" android:layout_weight="1.0" android:fontFamily="@string/gr" />
+        <View android:background="#ffe9e9e9" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w2" android:textColor="@color/bh" android:ellipsize="end" android:gravity="center" android:id="@id/df" android:background="?qi" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/ap" android:maxLines="2" android:layout_weight="1.0" android:fontFamily="@string/gr" />
+    </LinearLayout>
+</FrameLayout>

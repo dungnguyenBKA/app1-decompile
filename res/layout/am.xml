@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="top" android:id="@id/fy" android:background="@color/e6" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/yr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/do" android:background="?qj" android:padding="@dimen/nw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/h3" />
+    <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/dr" android:background="?qj" android:padding="@dimen/nw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginEnd="@dimen/p9" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/f7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

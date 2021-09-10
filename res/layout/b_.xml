@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sj" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/gp" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/gp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintTop_toBottomOf="@id/sj" app:layout_constraintVertical_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/se" android:layout_width="fill_parent" android:layout_height="@dimen/p_" app:layout_constraintTop_toTopOf="mj">
+            <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/df" android:background="?qj" android:padding="@dimen/nw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/g_" />
+            <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w2" android:textColor="@color/bh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cb" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" app:text_font="k" />
+            <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:id="@id/da" android:background="?qj" android:padding="@dimen/nw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_marginEnd="@dimen/p9" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/g3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/fq" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/nt" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/se">
+            <com.camerasideas.collagemaker.photoproc.crop.CropEditorView android:layout_gravity="center" android:id="@id/iw" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/nt" android:layout_width="fill_parent" android:layout_height="@dimen/o1" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toBottomOf="@id/fq" />
+        <FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/na" android:background="#bf313131" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/q2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" android:indeterminate="false" style="?android:progressBarStyle" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

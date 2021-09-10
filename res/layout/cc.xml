@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/ce" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/k1" android:background="@drawable/jn" android:layout_width="@dimen/on" android:layout_height="@dimen/p3" android:foreground="@drawable/mu" android:layout_marginStart="@dimen/nw" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/m0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" />
+    </FrameLayout>
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/vw" android:textColor="@drawable/mz" android:ellipsize="end" android:gravity="center" android:id="@id/lw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:fontFamily="@string/gr" app:layout_constraintEnd_toEndOf="@id/k1" app:layout_constraintStart_toStartOf="@id/k1" app:layout_constraintTop_toBottomOf="@id/k1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

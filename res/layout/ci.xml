@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/js" android:background="?qj" android:layout_width="@dimen/on" android:layout_height="@dimen/or" android:layout_marginTop="@dimen/ob" android:layout_marginStart="@dimen/ob" android:layout_marginEnd="@dimen/pj" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintDimensionRatio="90:102" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/np" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/n2" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/i1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

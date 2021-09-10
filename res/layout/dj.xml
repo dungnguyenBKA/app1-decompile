@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bg" android:background="#ffced4da" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bi" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/q0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        <RelativeLayout android:id="@id/bs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/q5" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/br" android:layout_width="40.5dip" android:layout_height="40.5dip" android:scaleType="fitXY" android:contentDescription="@null" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <Button android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/b6" android:background="@drawable/cq" android:paddingLeft="@dimen/p9" android:paddingRight="@dimen/p9" android:layout_width="wrap_content" android:layout_height="@dimen/on" android:layout_marginBottom="@dimen/o8" android:minWidth="@dimen/pk" android:layout_alignParentBottom="true" android:fontFamily="@string/gr" android:layout_marginEnd="@dimen/nw" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nw" android:layout_marginRight="@dimen/nw" android:layout_centerVertical="true" android:layout_marginStart="@dimen/nw" android:layout_marginEnd="@dimen/nw" android:layout_toStartOf="@id/b6" android:layout_toEndOf="@id/bs">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w0" android:textColor="#ff7f7f7f" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/c0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="title" android:maxLines="1" android:layout_weight="1.0" android:fontFamily="@string/gs" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/oy" android:src="@drawable/nh" />
+            </LinearLayout>
+            <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/vz" android:textColor="#ffadadad" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bk" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="desc" android:lines="2" android:fontFamily="@string/gs" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pg" parent="@style/f0">
+        <item name="s9">f3</item>
+        <item name="sk">ha</item>
+    </style>
+</resources>

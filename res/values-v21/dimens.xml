@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="qv">8.0dip</dimen>
+    <dimen name="qw">8.0dip</dimen>
+    <dimen name="t_">0.0dip</dimen>
+    <dimen name="tv">1.0dip</dimen>
+    <item type="dimen" name="uh">0.48</item>
+    <item type="dimen" name="ui">0.48</item>
+    <item type="dimen" name="uj">0.16</item>
+    <item type="dimen" name="uk">0.48</item>
+    <item type="dimen" name="um">0.24</item>
+    <item type="dimen" name="un">0.24</item>
+    <item type="dimen" name="uo">0.08</item>
+    <item type="dimen" name="up">0.24</item>
+    <dimen name="vj">0.0dip</dimen>
+    <dimen name="vm">0.0dip</dimen>
+    <dimen name="vn">12.0dip</dimen>
+</resources>

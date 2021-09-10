@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/hl" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:gravity="center" android:layout_width="60.0dip" android:layout_height="60.0dip" android:max="100" android:indeterminate="false" style="?android:progressBarStyle" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w2" android:textColor="#ff8c8c8c" android:gravity="start|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/f7" android:fontFamily="sans-serif-medium" />
+</LinearLayout>

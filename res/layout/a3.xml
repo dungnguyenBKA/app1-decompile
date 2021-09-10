@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sj" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/gp" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <LinearLayout android:orientation="vertical" android:id="@id/gp" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintTop_toBottomOf="@id/sj" app:layout_constraintVertical_weight="1.0">
+        <include layout="@layout/an" />
+        <include layout="@layout/am" />
+        <FrameLayout android:id="@id/jz" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/bt" android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/bm" android:layout_marginBottom="@dimen/bm" android:minHeight="@dimen/bl" />
+        </FrameLayout>
+        <com.camerasideas.baseutils.widget.DragFrameLayout android:gravity="center" android:id="@id/l3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.camerasideas.collagemaker.photoproc.editorview.CutoutEditorView android:layout_gravity="center" android:id="@id/iz" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/j5" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/c6" android:scaleType="fitXY" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/j4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/c5" android:scaleType="fitXY" />
+            <com.camerasideas.collagemaker.activity.widget.EraserPreView android:layout_gravity="bottom|center" android:id="@id/rl" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginBottom="50.0dip" />
+            <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/qn" android:background="@drawable/d8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/p_">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/e2" android:background="?qj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/pv" android:layout_weight="1.0" app:layout_constraintStart_toStartOf="mj">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/n1" />
+                    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/vw" android:textColor="@color/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/da" android:maxLines="1" app:text_font="l" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/e1" android:background="?qj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/pv" android:layout_weight="1.0" app:layout_constraintStart_toStartOf="mj">
+                    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/n0" />
+                    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/vw" android:textColor="@color/gz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d_" android:maxLines="1" app:text_font="l" />
+                </LinearLayout>
+            </LinearLayout>
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/di" android:visibility="gone" android:layout_width="@dimen/os" android:layout_height="@dimen/os" android:layout_marginTop="@dimen/q5" android:layout_marginEnd="@dimen/q5" app:srcCompat="@drawable/g8" />
+        </com.camerasideas.baseutils.widget.DragFrameLayout>
+        <FrameLayout android:layout_gravity="bottom|center" android:id="@id/cx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/cv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/cw" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:layout_gravity="center" android:id="@id/nb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/c0" />
+    <FrameLayout android:id="@id/hk" android:background="#b3000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/hl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/hn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.camerasideas.collagemaker.activity.widget.RippleImageView android:layout_gravity="center" android:id="@id/hr" android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end|center|top" android:id="@id/ht" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" app:srcCompat="@drawable/i5" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="17.5sp" android:textColor="@color/hq" android:gravity="center" android:layout_gravity="start|bottom|center" android:id="@id/hq" android:background="@color/b6" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/hs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/pj"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/hi" android:background="@drawable/db" android:layout_width="@dimen/on" android:layout_height="@dimen/or" android:layout_marginTop="@dimen/ob" android:foreground="?qj" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iq" android:layout_width="@dimen/o0" android:layout_height="@dimen/o0" app:srcCompat="@drawable/gb" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

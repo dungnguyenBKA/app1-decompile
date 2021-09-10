@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bz" android:background="@drawable/c3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/bh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/q5" android:layout_marginBottom="@dimen/q5" android:layout_marginStart="@dimen/nw" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj" app:layout_constraintWidth_percent="0.46">
+        <ImageView android:id="@id/bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bi" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/p9" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toEndOf="mj" />
+    <RelativeLayout android:id="@id/bs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/br" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/bq" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <ImageView android:id="@id/bx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ob" android:src="@drawable/i7" android:layout_marginEnd="@dimen/pu" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintTop_toTopOf="mj" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/w1" android:textColor="#ff333333" android:gravity="center_vertical" android:id="@id/c0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/q5" android:text="title" android:maxLines="2" android:fontFamily="@string/gs" app:layout_constraintEnd_toStartOf="@id/bx" app:layout_constraintStart_toEndOf="@id/bh" app:layout_constraintTop_toTopOf="mj" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="12.0sp" android:textColor="@color/hq" android:ellipsize="end" android:id="@id/bk" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="body" android:maxLines="2" android:fontFamily="@string/gs" app:layout_constraintEnd_toEndOf="@id/c0" app:layout_constraintStart_toStartOf="@id/c0" app:layout_constraintTop_toBottomOf="@id/c0" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pu" android:layout_marginStart="@dimen/q5" android:layout_marginEnd="@dimen/q5" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintEnd_toStartOf="@id/bb" app:layout_constraintStart_toEndOf="@id/bh">
+        <Button android:textSize="@dimen/w0" android:textColor="@color/aj" android:gravity="center" android:id="@id/b6" android:background="@drawable/c4" android:layout_width="wrap_content" android:layout_height="@dimen/op" android:minWidth="@dimen/pk" android:text="Install" android:fontFamily="@string/gr" android:paddingStart="@dimen/nw" android:paddingEnd="@dimen/nw" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

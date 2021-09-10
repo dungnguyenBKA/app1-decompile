@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ft" parent="@style/g4" />
+    <style name="fu" parent="@style/g5" />
+    <style name="g4" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="g5" parent="@android:style/Theme.Material.Light.NoActionBar" />
+</resources>

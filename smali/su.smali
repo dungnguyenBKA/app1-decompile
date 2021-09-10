@@ -1,0 +1,60 @@
+.class final synthetic Lsu;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcv$b;
+
+
+# static fields
+.field private static final a:Lsu;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lsu;
+
+    invoke-direct {v0}, Lsu;-><init>()V
+
+    sput-object v0, Lsu;->a:Lsu;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a()Lcv$b;
+    .locals 1
+
+    sget-object v0, Lsu;->a:Lsu;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, Ljava/lang/Throwable;
+
+    .line 1
+    sget v0, Lcv;->g:I
+
+    .line 2
+    new-instance v0, Lkv;
+
+    const-string v1, "Timed out while trying to acquire the lock."
+
+    invoke-direct {v0, v1, p1}, Lkv;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    throw v0
+.end method

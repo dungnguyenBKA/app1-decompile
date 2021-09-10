@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/iw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" app:srcCompat="@drawable/l2" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/ro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nw" android:layout_marginBottom="@dimen/o3" android:fontFamily="@string/gr" />
+</LinearLayout>

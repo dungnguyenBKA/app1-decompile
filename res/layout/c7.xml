@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/ob"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/k1" android:background="@drawable/ce" android:layout_width="@dimen/op" android:layout_height="@dimen/ot" android:foreground="@drawable/mu" app:layout_constraintBottom_toBottomOf="mj" app:layout_constraintStart_toStartOf="mj" app:layout_constraintTop_toTopOf="mj">
+        <com.camerasideas.collagemaker.activity.widget.roundimageview.RoundedImageView android:layout_gravity="center" android:id="@id/jq" android:background="@drawable/jn" android:layout_width="@dimen/on" android:layout_height="@dimen/or" android:scaleType="centerCrop" app:riv_border_color="@color/hl" app:riv_border_width="0.0dip" app:riv_corner_radius="@dimen/om" app:riv_oval="false" />
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/jp" android:layout_width="@dimen/o0" android:layout_height="@dimen/o0" app:srcCompat="@drawable/h_" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="end" android:id="@id/jt" android:visibility="gone" android:layout_width="@dimen/o6" android:layout_height="@dimen/nz" app:layout_constraintEnd_toEndOf="mj" app:layout_constraintTop_toTopOf="mj" app:srcCompat="@drawable/i1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

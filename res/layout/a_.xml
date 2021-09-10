@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/bm" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/cw" android:layout_marginTop="@dimen/dk" android:layout_marginRight="@dimen/cw" android:layout_marginBottom="@dimen/f8" android:foreground="?qi" app:cardCornerRadius="@dimen/f7" app:cardElevation="0.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/bl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </androidx.cardview.widget.CardView>
+    <RelativeLayout android:id="@id/bu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/f9">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/bv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/gk" android:minHeight="@dimen/gk" android:layout_centerInParent="true" app:lottie_autoPlay="true" app:lottie_loop="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/je" android:textColor="@color/ad" android:gravity="center" android:id="@id/bn" android:background="@color/ac" android:layout_width="fill_parent" android:layout_height="@dimen/gc" android:text="@string/hx" android:fontFamily="@string/gs" />
+</LinearLayout>

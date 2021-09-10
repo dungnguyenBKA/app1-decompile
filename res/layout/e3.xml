@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SeekBar android:id="@id/pi" android:background="@null" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.5dip" android:progressDrawable="@drawable/ok" android:minHeight="2.5dip" android:thumb="@drawable/kc" android:layout_weight="1.0" />
+    <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="@dimen/vz" android:textColor="@color/bh" android:gravity="center" android:id="@id/pj" android:layout_width="30.0dip" android:layout_height="30.0dip" android:maxLines="1" app:text_font="k" />
+</LinearLayout>

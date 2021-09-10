@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/e6" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/sj" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <include layout="@layout/bz" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.camerasideas.collagemaker.activity.gallery.ui.GalleryMultiSelectGroupView android:id="@id/hu" android:layout_width="fill_parent" android:layout_height="fill_parent" app:gallery_header_height="0.0dip" app:gallery_show_category="false" />
+        <View android:layout_gravity="top" android:id="@id/sf" android:background="@drawable/d3" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/k2" android:background="#f2232323" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@color/hl" android:layout_width="fill_parent" android:layout_height="40.0dip">
+                <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="15.0sp" android:textColor="@color/hq" android:gravity="start|center" android:id="@id/ec" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/h9" android:maxLines="1" android:layout_alignParentLeft="true" android:paddingStart="10.0dip" android:layout_alignParentStart="true" />
+                <com.camerasideas.collagemaker.activity.widget.FontTextView android:textSize="14.0sp" android:textColor="@color/hq" android:gravity="center" android:id="@id/sy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toRightOf="@id/ec" android:layout_alignBaseline="@id/ec" android:layout_alignBottom="@id/ec" android:layout_marginStart="15.0dip" android:layout_toEndOf="@id/ec" />
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/dk" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/i9" />
+            </RelativeLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/pn" android:background="@color/hl" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="110.0dip" android:divider="@color/hl" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

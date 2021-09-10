@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="pg" parent="@style/f0">
+        <item name="s9">f3</item>
+        <item name="sk">ha</item>
+    </style>
+    <style name="r2" parent="@style/p3">
+        <item name="android:textAppearance">?t6</item>
+        <item name="android:textColor">?e7</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">@integer/w</item>
+    </style>
+</resources>

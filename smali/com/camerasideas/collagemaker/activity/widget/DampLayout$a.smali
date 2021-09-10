@@ -1,0 +1,14 @@
+.class synthetic Lcom/camerasideas/collagemaker/activity/widget/DampLayout$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/camerasideas/collagemaker/activity/widget/DampLayout;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation
